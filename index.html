@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>aeroplane ticket reservation</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Langar&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1 style="text-align: center">Airline Ticket Reservation</h1>
+
+      <hr />
+    </header>
+    <div class="mydiv">
+      <h2>Details</h2>
+      <form>
+        First name: <input type="text" name="first name" />
+        <br />
+        Last name: <input type="text" name="last name" />
+        <br />
+        Phone No: <input type="text" name="ph-num" />
+        <br />
+        <p>Select your gender</p>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label><br />
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Other</label>
+        <br />
+        email:<input type="text" name="email" />
+        <br />
+        <label for="from">From:</label>
+        <select id="from" name="from">
+          <option value="visakhapatnam">Fisakhapatnam</option>
+          <option value="vijaywada">Vijaywada</option>
+          <option value="hyderabad">Hyderabad</option>
+        </select>
+        <br />
+        <label for="to">To:</label>
+        <select id="to" name="to">
+          <option value="visakhapatnam">Visakhapatnam</option>
+          <option value="vijaywada">Vijaywada</option>
+          <option value="hyderabad">Hyderabad</option>
+        </select>
+        <br />
+        <h3>Address:</h3>
+        <textarea rows="5">
+                 enter address here...
+             </textarea
+        >
+        <br />
+
+        <input class="sumbit" type="submit" />
+      </form>
+      <div class="footer">Created by Navya Narne</div>
+    </div>
+  </body>
+</html>
